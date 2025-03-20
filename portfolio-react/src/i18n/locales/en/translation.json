@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "WEB": "Personal Website",
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "loading": "Loading...",
+  "hero": {
+    "greetingWithName": "Hello, I'm <1>Shengyuan Guo</1>",
+    "title": "Frontend Developer",
+    "description": "I am a full-stack developer with solid React frontend development skills and rich project experience. Graduated from the University of Auckland, I worked as a software development intern and have the ability to build modern and efficient web applications.",
+    "cta": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Frontend Developer",
+    "p1": "I am Guo Shengyuan, a frontend developer currently pursuing a Master's degree in Information Technology at the University of Auckland. I have a solid educational background in computer science and practical software development experience.",
+    "p2": "In my career, I have focused on the React ecosystem, developing various responsive web applications. I am familiar with modern frontend development tools and technologies, including React, Redux, Tailwind CSS, etc. I also have full-stack development capabilities, understanding backend technologies such as Node.js and Express.",
+    "p3": "I am passionate about technology, especially in the fields of frontend development and artificial intelligence. Currently, I am looking for a frontend development position that can utilize my technical expertise, while constantly learning and growing.",
+    "techstack": "Tech Stack",
+    "techstack.desc": "Proficient in React, JavaScript/TypeScript and various frontend frameworks",
+    "education": "Education",
+    "education.desc": "Master of Information Technology & Bachelor of Computer Science from University of Auckland",
+    "projects": "Projects",
+    "projects.desc": "Developed multiple React-based web applications, including Musichat streaming website"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "position1": "Software Development Intern",
+    "company1": "FRW Healthcare Limited",
+    "location1": "Auckland",
+    "period1": "July 2024 - November 2024",
+    "job1": {
+      "desc1": "As a core team member, primarily responsible for the frontend development of a React-based pharmacy management system, using React + Redux to develop real-time order systems and medicine management features.",
+      "desc2": "Implemented data visualization using ECharts to assist management in decision analysis.",
+      "desc3": "Developed a real-time order notification system based on SSE (Server-Sent Events), integrated with Redux for state management.",
+      "desc4": "Created a pharmacy map system using Leaflet API, enabling multi-store inventory visualization and real-time monitoring, significantly improving staff efficiency.",
+      "desc5": "Built responsive UI interfaces using Ant Design and Tailwind CSS, and implemented JWT user authentication to ensure system security.",
+      "desc6": "Participated in backend API development and data collection, using Python scraping to collect and process 9000+ medicine data, providing foundational data support for image recognition."
+    },
+    "position2": "Musichat Streaming Website",
+    "company2": "University of Auckland",
+    "location2": "Full Stack Development",
+    "period2": "February 2024 - June 2024",
+    "job2": {
+      "desc1": "Project maintenance: Used Vite to set up initial project builds and packaging, configured CI/CD for the project.",
+      "desc2": "Frontend: Used React Native to recreate interfaces based on prototypes, called APIs using Axios, applied Tailwind CSS for styling and layout, and used Redux for state management.",
+      "desc3": "Implemented performance optimizations using throttling, debouncing, lazy loading, and various React hooks. Integrated OpenAI API for personalized recommendations.",
+      "desc4": "Implemented real-time online chat functionality using socket.io.",
+      "desc5": "Backend: Used Express framework with MongoDB database."
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "all": "All",
+    "react": "React",
+    "frontend": "Frontend",
+    "fullstack": "Full Stack",
+    "code": "Code",
+    "demo": "Demo"
+  },
+  "projectDetail": {
+    "viewDetails": "View Details",
+    "description": "Description",
+    "features": "Features",
+    "technologies": "Technologies",
+    "date": "Date",
+    "viewCode": "View Code",
+    "close": "Close"
+  },
+  "skills": {
+    "title": "My Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "frameworks": "Frameworks & Libraries",
+    "tools": "Tools & Others"
+  },
+  "education": {
+    "title": "Education Background",
+    "education": "Education",
+    "master": "Master of Information Technology",
+    "bachelor": "Bachelor of Computer Science",
+    "university": "University of Auckland (QS 68)",
+    "period1": "February 2023 - Present",
+    "desc1": "Currently pursuing a Master's degree in Information Technology at the University of Auckland, focusing on advanced software development and web application development technologies.",
+    "period2": "July 2020 - November 2022",
+    "desc2": "Completed a Bachelor's degree in Computer Science at the University of Auckland, studying fundamental theories and practical skills in computer science.",
+    "courses": "Related Courses:",
+    "course1": "Frontend Development",
+    "course2": "Software Engineering",
+    "course3": "Data Structures",
+    "course4": "Algorithms",
+    "course5": "Database Systems",
+    "course6": "Artificial Intelligence",
+    "course7": "Network Programming",
+    "course8": "UI/UX Design",
+    "achievements": "Achievements & Honors",
+    "achievement1": "Musichat project won the Best Student Project Award at the University of Auckland in 2024",
+    "achievement2": "The MediMate system I contributed to was recognized in the Medical Health Technology Innovation Competition"
+
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Have a question or want to work together? Feel free to get in touch!",
+    "info": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "location.value": "Auckland, New Zealand",
+    "location.value1": "China，ShanXi，DaTong",
+    "social": "Social Media",
+    "wechat": "WeChat",
+    "message": "Send Me a Message",
+    "form": {
+      "name": "Name",
+      "name.placeholder": "Your name",
+      "email": "Email",
+      "email.placeholder": "Your email",
+      "message": "Message",
+      "message.placeholder": "Your message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you for your message! I will get back to you as soon as possible.",
+      "error": "Please fill in all fields"
+    },
+    "chatbot": "AI Assistant",
+    "chatbot.placeholder": "How can I help you?",
+    "chatbot.send": "Send"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "made": "Made with",
+    "and": "and",
+    "react": "React"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "toggle": "中文"
+  }
+}

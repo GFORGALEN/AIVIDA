@@ -32,7 +32,7 @@ const Navbar = () => {
     { label: t('nav.home'), to: 'hero' },
     { label: t('nav.about'), to: 'about' },
     { label: t('nav.experience'), to: 'experience' },
-    { label: t('nav.projects'), to: 'projects' },
+    { label: t('nav.projects'), to: 'steps' },
     { label: t('nav.skills'), to: 'skills' },
     { label: t('nav.education'), to: 'education' },
     { label: t('nav.contact'), to: 'contact' },

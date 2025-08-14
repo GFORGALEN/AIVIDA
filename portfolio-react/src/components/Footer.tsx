@@ -10,7 +10,7 @@ const Footer = () => {
     { label: t('nav.home'), to: 'hero' },
     { label: t('nav.about'), to: 'about' },
     { label: t('nav.experience'), to: 'experience' },
-    { label: t('nav.projects'), to: 'projects' },
+    { label: t('nav.projects'), to: 'steps' },
     { label: t('nav.skills'), to: 'skills' },
     { label: t('nav.education'), to: 'education' },
     { label: t('nav.contact'), to: 'contact' },
@@ -27,9 +27,9 @@ const Footer = () => {
             duration={500}
             className="text-xl font-bold text-text dark:text-white cursor-pointer flex items-center mb-8"
           >
-            <span className="text-primary mr-2">{'<'}</span>
+            {/* <span className="text-primary mr-2">{'<'}</span>
             
-            <span className="text-primary ml-2">{'/>'}</span>
+            <span className="text-primary ml-2">{'/>'}</span> */}
           </Link>
 
           <div className="flex flex-wrap justify-center gap-6 mb-8">
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-6 mb-8">
-            <a
+            {/* <a
               href="https://github.com/UOA-CS732-SE750-Students-2024/project-group-mystic-manatees"
               target="_blank"
               rel="noopener noreferrer"
@@ -75,12 +75,12 @@ const Footer = () => {
               aria-label="Twitter"
             >
               <FaTwitter size={24} />
-            </a>
+            </a> */}
           </div>
 
           <div className="text-text-light dark:text-gray-400 text-center">
             <p>
-              © {currentYear} 郭圣元. {t('footer.rights')}
+              © {currentYear} AIVIDA. {t('footer.rights')}
             </p>
             <p className="mt-2 flex items-center justify-center">
               {t('footer.made')} <FaHeart className="text-primary mx-2" /> {t('footer.and')} {t('footer.react')}

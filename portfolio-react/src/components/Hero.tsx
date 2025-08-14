@@ -93,7 +93,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
           >
-            <a
+            {/* <a
                 href="www.linkedin.com/in/shengyuan-guo-51a180305"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,8 +101,8 @@ const Hero = () => {
                 aria-label="LinkedIn"
             >
               <FaLinkedin size={24}/>
-            </a>
-            <a
+            </a> */}
+            {/* <a
                 href="https://github.com/GFORGALEN"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -110,22 +110,22 @@ const Hero = () => {
                 aria-label="GitHub"
             >
               <FaGithub size={24}/>
-            </a>
+            </a> */}
             <a
-                href="mailto:guoshengyuan123@icloud.com"
+                href="mailto:aividamanagement@gmail.com"
                 className="text-primary hover:text-primary-light transition-colors duration-300"
                 aria-label="Email"
             >
               <FaEnvelope size={24}/>
             </a>
             <div className="relative">
-              <button
+              {/* <button
                   onClick={toggleWechat}
                   className="text-primary hover:text-primary-light transition-colors duration-300"
                   aria-label="WeChat"
               >
                 <FaWeixin size={24}/>
-              </button>
+              </button> */}
 
               {showWechat && (
                   <div

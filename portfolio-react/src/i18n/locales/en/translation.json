@@ -2,12 +2,12 @@
   "nav": {
     "WEB": "AIVIDA",
     "home": "Home",
-    "about": "About",
-    "experience": "Experience",
-    "projects": "Projects",
-    "skills": "Skills",
-    "education": "Education",
-    "contact": "Contact"
+    "about": "Our Services",
+    "experience": "Meet the Team",
+    "projects": "Step-by-Step to Success",
+    "skills": "Our Skills",
+    "education": "",
+    "contact": "Contact Us"
   },
   "loading": "Loading...",
   "hero": {
@@ -122,7 +122,7 @@
     "close": "Close"
   },
   "skills": {
-    "title": "My Skills",
+    "title": "Our Skills",
     "frontend": "Frontend",
     "backend": "Backend",
     "frameworks": "Frameworks & Libraries",
@@ -153,15 +153,15 @@
 
   },
   "contact": {
-    "title": "Contact Me",
+    "title": "Contact Us",
     "subtitle": "Have a question or want to work together? Feel free to get in touch!",
     "info": "Contact Information",
     "email": "Email",
     "phone": "Phone",
     "location": "Location",
-    "location.value": "Auckland, New Zealand",
-    "location.value1": "China，ShanXi，DaTong",
-    "social": "Social Media",
+    "location.value": "Auckland",
+    "location.value1": "New Zealand",
+    "social": "AIVIDA",
     "wechat": "WeChat",
     "message": "Send Me a Message",
     "form": {

@@ -86,15 +86,15 @@ function App() {
           <Suspense fallback={<LoadingFallback />}>
             <StepByStep />
           </Suspense>
-          <Suspense fallback={<LoadingFallback />}>
+          {/* <Suspense fallback={<LoadingFallback />}>
             <Projects />
-          </Suspense>
+          </Suspense> */}
           <Suspense fallback={<LoadingFallback />}>
             <Skills />
           </Suspense>
-          <Suspense fallback={<LoadingFallback />}>
+          {/* <Suspense fallback={<LoadingFallback />}>
             <Education />
-          </Suspense>
+          </Suspense> */}
           <Suspense fallback={<LoadingFallback />}>
             <Contact />
           </Suspense>
@@ -103,8 +103,8 @@ function App() {
           <Footer />
         </Suspense>
 
-        {/* 添加语言切换按钮 */}
-        <LanguageToggle />
+        {/* 添加语言切换按钮
+        <LanguageToggle /> */}
 
         {/* 添加主题切换按钮 */}
         <button
@@ -116,7 +116,7 @@ function App() {
         </button>
 
         {/* 添加AI聊天机器人 */}
-        <Chatbot />
+        {/* <Chatbot /> */}
       </div>
       <BackgroundAnimation isDark={isDark} />
     </PageTransition>

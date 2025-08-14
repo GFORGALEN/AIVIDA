@@ -32,7 +32,7 @@ const StepByStep = () => {
         </motion.div>
 
         {/* 步骤卡片 */}
-        <div className="grid gap-8 grid-cols-5">
+        <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(250px,1fr))]">
           {steps.map((step, index) => (
             <motion.div
               key={index}

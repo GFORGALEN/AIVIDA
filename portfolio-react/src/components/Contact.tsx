@@ -128,15 +128,15 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-semibold mb-1 text-text">{t('contact.email')}</h4>
                     <a
-                        href="mailto:guoshengyuan123@icloud.com"
+                        href="mailto:aividamanagement@gmail.com"
                         className="text-text-light hover:text-primary transition-colors duration-300"
                     >
-                      guoshengyuan123@icloud.com
+                      aividamanagement@gmail.com
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="text-primary text-xl mt-1 mr-4">
                     <FaPhone/>
                   </div>
@@ -144,9 +144,9 @@ const Contact = () => {
                     <h4 className="text-lg font-semibold mb-1 text-text">NZ  {t('contact.phone')}</h4>
                     <p className="text-text-light">+64 02041093377</p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="text-primary text-xl mt-1 mr-4">
                     <FaPhone/>
                   </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                     <h4 className="text-lg font-semibold mb-1 text-text">CN  {t('contact.phone')}</h4>
                     <p className="text-text-light">+86 18634220358</p>
                   </div>
-                </div>
+                </div> */}
 
 
                 <div className="flex items-start">
@@ -179,7 +179,7 @@ const Contact = () => {
                         className="text-primary hover:text-primary-light transition-colors duration-300"
                         aria-label="LinkedIn"
                     >
-                      <FaLinkedin size={24}/>
+                      {/* <FaLinkedin size={24}/> */}
                     </a>
                     <a
                         href="https://github.com/GFORGALEN"
@@ -188,7 +188,7 @@ const Contact = () => {
                         className="text-primary hover:text-primary-light transition-colors duration-300"
                         aria-label="GitHub"
                     >
-                      <FaGithub size={24}/>
+                      {/* <FaGithub size={24}/> */}
                     </a>
                     <div className="relative">
                       <button
@@ -196,7 +196,7 @@ const Contact = () => {
                           className="text-primary hover:text-primary-light transition-colors duration-300"
                           aria-label="WeChat"
                       >
-                        <FaWeixin size={24}/>
+                        {/* <FaWeixin size={24}/> */}
                       </button>
 
                       {showWechat && (

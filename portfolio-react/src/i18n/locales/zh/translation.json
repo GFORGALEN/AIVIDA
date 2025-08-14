@@ -1,6 +1,6 @@
 {
   "nav": {
-    "WEB": "个人网页",
+    "WEB": "AIVIDA",
     "home": "首页",
     "about": "关于",
     "experience": "经验",
@@ -30,33 +30,62 @@
     "projects": "项目",
     "projects.desc": "参与开发多个基于React的Web应用，包括Musichat流媒体播放网站"
   },
-  "experience": {
-    "title": "工作经历",
-    "position1": "软件开发实习生",
-    "company1": "FRW Healthcare Limited",
-    "location1": "奥克兰",
-    "period1": "2024年7月 - 2024年11月",
-    "job1": {
-      "desc1": "作为核心团队成员，主要负责基于React的药店管理系统前端开发，使用React + Redux开发实时订单系统和药品管理功能。",
-      "desc2": "使用ECharts实现数据可视化，帮助管理层进行决策分析。",
-      "desc3": "实现基于SSE (Server-Sent Events)的实时订单通知系统，整合Redux进行状态管理。",
-      "desc4": "开发基于Leaflet API的药店地图系统，实现多店铺库存可视化和实时监控，显著提升员工工作效率。",
-      "desc5": "使用Ant Design和Tailwind CSS构建响应式UI界面，并实现JWT用户认证确保系统安全性。",
-      "desc6": "参与后端API开发和数据采集，使用Python爬虫收集和处理9000+药品数据，为图像识别提供基础数据支持。"
-    },
-    "position2": "Musichat流媒体播放网页",
-    "company2": "奥克兰大学",
-    "location2": "全栈开发",
-    "period2": "2024年2月 - 2024年6月",
-    "job2": {
-      "desc1": "项目运维：使用Vite搭建初始化构建项目和打包，对项目进行CI/CD配置。",
-      "desc2": "前端：使用React Native根据原型图还原界面，通过Axios在前端调用接口，应用Tailwindcss进行样式与布局，使用Redux进行状态管理。",
-      "desc3": "使用节流、防抖、懒加载以及React的多种hook进行性能优化。使用OpenAI接口接入人工智能进行个性化推荐。",
-      "desc4": "使用socket.io进行实时在线聊天功能的实现。",
-      "desc5": "后端：后端框架应用express，数据库使用MongoDB。"
-    }
 
+"experience": {
+  "title": "Meet the Team",
+  "position1": "Technical Lead / IT Consultant",
+  "company1": "Alex",
+  "location1": "",
+  "period1": "",
+  "job1": {
+    "desc1": "Over 10 years of experience in software engineering and DevOps, with a strong background in large-scale system architecture and automation.",
+    "desc2": "Previously held roles at Baidu and Tencent, specializing in backend, and infrastructure optimization for high-performance platforms."
   },
+  "position2": "Lead Developer",
+  "company2": "Jack",
+  "location2": "",
+  "period2": "",
+  "job2": {
+    "desc1": "Specialist in microservices, high-concurrency design, and full-stack development.",
+    "desc2": "Capable of delivering scalable, high-performance solutions tailored to diverse business needs.",
+    "desc3": "Possesses long-term industry experience in computer vision."
+  },
+  "position3": "AI Developer",
+  "company3": "Xiao",
+  "location3": "",
+  "period3": "",
+  "job3": {
+    "desc1": "Master's degree in Artificial Intelligence, with deep expertise in machine learning models, data analysis, large language models, and natural language processing.",
+    "desc2": "Currently serving as an AI developer at the largest engineering consultancy company in the Asia-Pacific region.",
+    "desc3": "Delivering AI-driven solutions to enhance operational efficiency and decision-making."
+  },
+  "position4": "Full Stack Developer",
+  "company4": "Galen",
+  "location4": "",
+  "period4": "",
+  "job4": {
+    "desc1": "Experienced in website design, cloud infrastructure, and API development.",
+    "desc2": "Track record of delivering multiple responsive, high-traffic websites.",
+    "desc3": "AWS-certified and skilled in secure, scalable deployments."
+  }
+},
+"steps": {
+  "title": "成功的五个步骤",
+  "list": [
+    {
+      "number": "1",
+      "title": "联系我们",
+      "desc": "与我们友好的团队分享您的需求...",
+      "image": "/images/robot-wave.svg"
+    },
+    {
+      "number": "2",
+      "title": "规划",
+      "desc": "定义本阶段的范围、里程碑和交付成果...",
+      "image": "/images/plant-growth.svg"
+    }
+  ]
+},
   "projects": {
     "title": "我的项目",
     "all": "全部",

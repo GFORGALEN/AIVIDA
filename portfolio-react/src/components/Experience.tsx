@@ -60,11 +60,7 @@ const Experience = () => {
       periodKey: 'experience.period1',
       descriptionKeys: [
         'experience.job1.desc1',
-        'experience.job1.desc2',
-        'experience.job1.desc3',
-        'experience.job1.desc4',
-        'experience.job1.desc5',
-        'experience.job1.desc6'
+        'experience.job1.desc2'
       ]
     },
     {
@@ -76,8 +72,28 @@ const Experience = () => {
         'experience.job2.desc1',
         'experience.job2.desc2',
         'experience.job2.desc3',
-        'experience.job2.desc4',
-        'experience.job2.desc5'
+      ]
+    },
+    {
+      titleKey: 'experience.position3',
+      companyKey: 'experience.company3',
+      locationKey: 'experience.location3',
+      periodKey: 'experience.period3',
+      descriptionKeys: [
+        'experience.job2.desc1',
+        'experience.job2.desc2',
+        'experience.job2.desc3'
+      ]
+    },
+    {
+      titleKey: 'experience.position4',
+      companyKey: 'experience.company4',
+      locationKey: 'experience.location4',
+      periodKey: 'experience.period4',
+      descriptionKeys: [
+        'experience.job2.desc1',
+        'experience.job2.desc2',
+        'experience.job2.desc3'
       ]
     }
   ];

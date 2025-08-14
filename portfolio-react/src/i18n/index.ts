@@ -19,7 +19,8 @@ i18n
         translation: translationZH
       }
     },
-    fallbackLng: 'en', // 回退语言
+    // lng: 'en', 
+    fallbackLng: 'zh', // 回退语言
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],

@@ -9,7 +9,7 @@ const Skills = lazy(() => import('./components/Skills'));
 const Education = lazy(() => import('./components/Education'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
-
+const Step = lazy(() => import('./components/StepByStep'));
 import LanguageToggle from './components/LanguageToggle';
 import Chatbot from './components/Chatbot';
 import { FaSun, FaMoon } from 'react-icons/fa';
@@ -17,6 +17,7 @@ import { useTranslation } from 'react-i18next';
 import PageTransition from './components/PageTransition';
 import Loader from './components/Loader';
 import BackgroundAnimation from './components/BackgroundAnimation';
+import StepByStep from './components/StepByStep';
 function App() {
   const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
@@ -81,6 +82,9 @@ function App() {
           </Suspense>
           <Suspense fallback={<LoadingFallback />}>
             <Experience />
+          </Suspense>
+          <Suspense fallback={<LoadingFallback />}>
+            <StepByStep />
           </Suspense>
           <Suspense fallback={<LoadingFallback />}>
             <Projects />

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "WEB": "Personal Website",
+    "WEB": "AIVIDA",
     "home": "Home",
     "about": "About",
     "experience": "Experience",
@@ -11,50 +11,98 @@
   },
   "loading": "Loading...",
   "hero": {
-    "greetingWithName": "Hello, I'm <1>Shengyuan Guo</1>",
-    "title": "Frontend Developer",
-    "description": "I am a full-stack developer with solid React frontend development skills and rich project experience. Graduated from the University of Auckland, I worked as a software development intern and have the ability to build modern and efficient web applications.",
-    "cta": "Contact Me"
+    "greetingWithName": "Digital Solutions",
+    "title": "Tailored to Your Vision",
+    "description": "At the forefront of technology trends, delivering intelligent systems that leverage the latest AI advancements to automate processes, generate creative content, and provide personalized experiences.  ",
+    "cta": "Contact Us"
   },
   "about": {
-    "title": "About Me",
+    "title": "Our services",
     "subtitle": "Frontend Developer",
     "p1": "I am Guo Shengyuan, a frontend developer currently pursuing a Master's degree in Information Technology at the University of Auckland. I have a solid educational background in computer science and practical software development experience.",
     "p2": "In my career, I have focused on the React ecosystem, developing various responsive web applications. I am familiar with modern frontend development tools and technologies, including React, Redux, Tailwind CSS, etc. I also have full-stack development capabilities, understanding backend technologies such as Node.js and Express.",
     "p3": "I am passionate about technology, especially in the fields of frontend development and artificial intelligence. Currently, I am looking for a frontend development position that can utilize my technical expertise, while constantly learning and growing.",
-    "techstack": "Tech Stack",
-    "techstack.desc": "Proficient in React, JavaScript/TypeScript and various frontend frameworks",
-    "education": "Education",
-    "education.desc": "Master of Information Technology & Bachelor of Computer Science from University of Auckland",
-    "projects": "Projects",
-    "projects.desc": "Developed multiple React-based web applications, including Musichat streaming website"
+    "techstack": "AI-Powered Solutions",
+    "techstack.desc": "At the forefront of global technology trends, we deliver cutting-edge intelligent systems powered by the latest advancements in artificial intelligence. From automating complex workflows and generating high-quality creative content, to providing hyper-personalized customer experiences, our AI solutions are designed to help businesses reduce costs, increase efficiency, and gain a competitive edge. We integrate machine learning, natural language processing, and computer vision technologies to ensure your operations are not only smart, but also adaptive to future challenges.",
+    "education": "Automation Tools",
+    "education.desc": "We design and implement custom automation tools that transform traditional operations into fully digital, streamlined workflows. Our solutions eliminate repetitive manual tasks, improve accuracy, and significantly boost productivity across all business functions. By integrating APIs, robotic process automation (RPA), and real-time monitoring, we ensure your systems run faster, smarter, and with minimal human intervention—allowing your team to focus on high-value strategic work.",
+    "projects": "Custom Website Development",
+    "projects.desc": "We build tailor-made professional software solutions and websites designed for diverse industries and business models. From responsive user interfaces to secure backend architectures, our development process ensures optimal performance, scalability, and user experience. We employ the latest web technologies—such as React, Next.js, and secure cloud deployments—to deliver solutions that are visually appealing, highly functional, and future-proof.",
+    "Digital strategy & advisory":"Digital strategy & advisory",
+    "Digital strategy & advisory.desc":"Our digital strategy and advisory services provide you with a clear roadmap for leveraging technology to achieve your business goals. We conduct in-depth system audits, identify security vulnerabilities, and recommend tailored digital transformation plans. Whether it’s optimizing your IT infrastructure, enhancing cybersecurity measures, or implementing advanced analytics, we ensure your organization is equipped for sustainable growth in the digital era."
+    
+    
   },
-  "experience": {
-    "title": "Work Experience",
-    "position1": "Software Development Intern",
-    "company1": "FRW Healthcare Limited",
-    "location1": "Auckland",
-    "period1": "July 2024 - November 2024",
-    "job1": {
-      "desc1": "As a core team member, primarily responsible for the frontend development of a React-based pharmacy management system, using React + Redux to develop real-time order systems and medicine management features.",
-      "desc2": "Implemented data visualization using ECharts to assist management in decision analysis.",
-      "desc3": "Developed a real-time order notification system based on SSE (Server-Sent Events), integrated with Redux for state management.",
-      "desc4": "Created a pharmacy map system using Leaflet API, enabling multi-store inventory visualization and real-time monitoring, significantly improving staff efficiency.",
-      "desc5": "Built responsive UI interfaces using Ant Design and Tailwind CSS, and implemented JWT user authentication to ensure system security.",
-      "desc6": "Participated in backend API development and data collection, using Python scraping to collect and process 9000+ medicine data, providing foundational data support for image recognition."
+"experience": {
+  "title": "Meet the Team",
+  "position1": "Technical Lead / IT Consultant",
+  "company1": "Alex",
+  "location1": "",
+  "period1": "",
+  "job1": {
+    "desc1": "Over 10 years of experience in software engineering and DevOps, with a strong background in large-scale system architecture and automation.",
+    "desc2": "Previously held roles at Baidu and Tencent, specializing in backend, and infrastructure optimization for high-performance platforms."
+  },
+  "position2": "Lead Developer",
+  "company2": "Jack",
+  "location2": "",
+  "period2": "",
+  "job2": {
+    "desc1": "Specialist in microservices, high-concurrency design, and full-stack development.",
+    "desc2": "Capable of delivering scalable, high-performance solutions tailored to diverse business needs.",
+    "desc3": "Possesses long-term industry experience in computer vision."
+  },
+  "position3": "AI Developer",
+  "company3": "Xiao",
+  "location3": "",
+  "period3": "",
+  "job3": {
+    "desc1": "Master's degree in Artificial Intelligence, with deep expertise in machine learning models, data analysis, large language models, and natural language processing.",
+    "desc2": "Currently serving as an AI developer at the largest engineering consultancy company in the Asia-Pacific region.",
+    "desc3": "Delivering AI-driven solutions to enhance operational efficiency and decision-making."
+  },
+  "position4": "Full Stack Developer",
+  "company4": "Galen",
+  "location4": "",
+  "period4": "",
+  "job4": {
+    "desc1": "Experienced in website design, cloud infrastructure, and API development.",
+    "desc2": "Track record of delivering multiple responsive, high-traffic websites.",
+    "desc3": "AWS-certified and skilled in secure, scalable deployments."
+  }
+},
+"steps": {
+  "title": "Step-by-Step to Success",
+  "list": [
+    {
+      "number": "1",
+      "title": "Get in Touch",
+      "desc": "Share your requirements with our friendly team to understand your goals, challenges, and desired outcomes."
     },
-    "position2": "Musichat Streaming Website",
-    "company2": "University of Auckland",
-    "location2": "Full Stack Development",
-    "period2": "February 2024 - June 2024",
-    "job2": {
-      "desc1": "Project maintenance: Used Vite to set up initial project builds and packaging, configured CI/CD for the project.",
-      "desc2": "Frontend: Used React Native to recreate interfaces based on prototypes, called APIs using Axios, applied Tailwind CSS for styling and layout, and used Redux for state management.",
-      "desc3": "Implemented performance optimizations using throttling, debouncing, lazy loading, and various React hooks. Integrated OpenAI API for personalized recommendations.",
-      "desc4": "Implemented real-time online chat functionality using socket.io.",
-      "desc5": "Backend: Used Express framework with MongoDB database."
+    {
+      "number": "2",
+      "title": "Planning",
+      "desc": "Define the scope, milestones, and deliverables for the phase, ensuring alignment with long-term objectives."
+      
+    },
+    {
+      "number": "3",
+      "title": "Development",
+      "desc": "Implement phase features through agile, iterative methods for flexibility and ongoing enhancement."
+      
+    },
+    {
+      "number": "4",
+      "title": "Deliver",
+      "desc": "Deploy phase deliverables into production, collect feedback, and progress to the next stage."
+    },
+    {
+      "number": "5",
+      "title": "Support",
+      "desc": "Provide ongoing maintenance, updates, and enhancements to keep the solution optimized, secure, and ready to meet evolving business needs."
     }
-  },
+  ]
+},
   "projects": {
     "title": "My Projects",
     "all": "All",
@@ -144,6 +192,6 @@
     "dark": "Dark mode"
   },
   "language": {
-    "toggle": "中文"
+    "toggle": "Enighsh"
   }
 }

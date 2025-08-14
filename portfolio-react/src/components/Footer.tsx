@@ -28,7 +28,7 @@ const Footer = () => {
             className="text-xl font-bold text-text dark:text-white cursor-pointer flex items-center mb-8"
           >
             <span className="text-primary mr-2">{'<'}</span>
-            郭圣元
+            
             <span className="text-primary ml-2">{'/>'}</span>
           </Link>
 

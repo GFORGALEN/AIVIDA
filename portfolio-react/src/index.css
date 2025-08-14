@@ -38,12 +38,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1E88E5;
+  background: #3579de;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #42A5F5;
+  background: #48aaf5;
 }
 
 /* Progress bar animation */
@@ -78,4 +78,21 @@ body {
   .dark .text-text-light {
     color: #d1d5db !important; /* gray-300 */
   }
+}
+
+/* Gradient animation for AIVIDA title */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient 3s ease infinite;
 }

@@ -5,7 +5,7 @@ const LanguageToggle = () => {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    const currentLang = i18n.language || 'zh';
+    const currentLang = i18n.language || 'en';
     const newLang = currentLang.startsWith('zh') ? 'en' : 'zh';
     i18n.changeLanguage(newLang);
   };

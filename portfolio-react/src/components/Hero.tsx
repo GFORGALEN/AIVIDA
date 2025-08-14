@@ -16,28 +16,83 @@ const Hero = () => {
       className="min-h-screen flex items-center justify-center pt-20 pb-10 bg-background dark:bg-gray-900"
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+        {/* AIVIDA Brand Title - Left Side */}
         <motion.div
-          className="md:w-3/5 mb-10 md:mb-0"
-          initial={{ opacity: 0, x: -50 }}
+          className="md:w-1/2 mb-10 md:mb-0 flex justify-center items-center"
+          initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-text dark:text-white">
+          <div className="text-center">
+            
+  {/* 三颗菱形容器 */}
+  <div className="relative w-[280px] h-[140px] flex items-center justify-start overflow-visible mb-10 translate-x-16">
+    {/* 大菱形 */}
+    <div className="absolute left-0 top-1/2 w-[140px] h-[140px] bg-gradient-to-br from-blue-500 via-purple-500 to-blue-600 rounded-md transform -translate-y-1/2 rotate-45 animate-pulse"></div>
+    
+    {/* 中菱形 - 左边对齐到大菱形中心 */}
+    <div className="absolute left-[70px] top-1/2 w-[110px] h-[110px] bg-gradient-to-br from-purple-400 to-blue-500 rounded-md transform -translate-y-1/2 rotate-45 animate-pulse"
+         style={{ animationDelay: '0.1s' }}></div>
+    
+    {/* 小菱形 - 左边对齐到中菱形中心 */}
+    <div className="absolute left-[140px] top-1/2 w-[80px] h-[80px] bg-gradient-to-br from-blue-400 to-purple-400 rounded-md transform -translate-y-1/2 rotate-45 animate-pulse"
+         style={{ animationDelay: '0.3s' }}></div>
+  </div>
+            <motion.span 
+              className="text-9xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient-x block leading-none"
+              style={{
+                backgroundSize: '200% 200%',
+                animation: 'gradient 3s ease infinite'
+              }}
+            >
+              {t('nav.WEB')}
+            </motion.span>
+          </div>
+        </motion.div>
+
+        {/* Content - Right Side */}
+        <motion.div
+          className="md:w-1/2 mb-10 md:mb-0"
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          <motion.h1 
+            className="text-5xl md:text-5xl lg:text-6xl font-bold mb-4 text-text dark:text-white"
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          >
             {/*{t('hero.greeting')}{' '}*/}
             <Trans i18nKey="hero.greetingWithName">
               你好，我是<span className="text-primary">郭圣元</span>
             </Trans>
-          </h1>
+          </motion.h1>
 
-          <h2 className="text-2xl text-text-light dark:text-gray-300 font-medium mb-4">
+          <motion.span 
+            className="text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 block mb-8"
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
+          >
             {t('hero.title')}
-          </h2>
+          </motion.span>
 
-          <p className="text-text-light dark:text-gray-400 text-lg mb-8 leading-relaxed">
+          <motion.p 
+            className="text-text-light dark:text-gray-400 text-lg mb-8 leading-relaxed"
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
+          >
             {t('hero.description')}
-          </p>
+          </motion.p>
 
-          <div className="flex space-x-4 mb-8">
+          <motion.div 
+            className="flex space-x-4 mb-8"
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
+          >
             <a
                 href="www.linkedin.com/in/shengyuan-guo-51a180305"
                 target="_blank"
@@ -91,50 +146,24 @@ const Hero = () => {
                   </div>
               )}
             </div>
-          </div>
+          </motion.div>
 
-          <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-70}
-              className="inline-block bg-primary hover:bg-primary-light text-white font-medium py-3 px-6 rounded-md transition-colors duration-300 shadow-md"
+          <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 1.0, ease: "easeOut" }}
           >
-            {t('hero.cta')}
-          </Link>
-        </motion.div>
-
-        <motion.div
-            className="md:w-2/5 flex justify-center"
-            initial={{opacity: 0, x: 50}}
-            animate={{opacity: 1, x: 0}}
-            transition={{duration: 0.5, delay: 0.2, ease: "easeOut"}}
-        >
-          <div className="relative rounded-full overflow-hidden border-4 border-blue-500 w-64 h-64 mx-auto">
-            {!imageLoaded && (
-                <div className="absolute inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-700">
-                  <img
-                      src="https://i.ibb.co/qNdyZSC/Pngtree-letter-g-logo-6928665.png"
-                      alt="加载中"
-                      className="w-24 h-24 object-contain"
-                  />
-                </div>
-            )}
-
-            <img
-                src="https://i.ibb.co/PZ91f3HH/c4138f5172013e6f37c2960f73c899b.jpg"
-                alt="郭圣元照片"
-                className={`w-full h-full object-cover ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
-                style={{transition: 'opacity 0.3s ease-in-out'}}
-                onLoad={() => setImageLoaded(true)}
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "https://i.ibb.co/qNdyZSC/Pngtree-letter-g-logo-6928665.png";
-                  setImageLoaded(true);
-                }}
-            />
-          </div>
+            <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="inline-block bg-primary hover:bg-primary-light text-white font-medium py-3 px-6 rounded-md transition-colors duration-300 shadow-md"
+            >
+              {t('hero.cta')}
+            </Link>
+          </motion.div>
         </motion.div>
       </div>
 

@@ -19,11 +19,11 @@ i18n
         translation: translationZH
       }
     },
-    // lng: 'en', 
-    fallbackLng: 'zh', // 回退语言
+     lng: 'en', 
+    fallbackLng: 'en', // 回退语言
     detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
+      order: [], // 不做任何检测
+      caches: [], // 不缓存
     },
     interpolation: {
       escapeValue: false // 不转义插值内容
